@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haocent.android.recyclerview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 纵向布局 -->
+        <activity
+            android:name=".vertical.VerticalActivity"
+            android:label="纵向布局"
+            android:screenOrientation="portrait" />
+
+        <!-- 横向布局 -->
+        <activity
+            android:name=".horizontal.HorizontalActivity"
+            android:label="横向布局"
+            android:screenOrientation="portrait" />
+
+        <!-- 网格布局 -->
+        <activity
+            android:name=".grid.GridActivity"
+            android:label="网格布局"
+            android:screenOrientation="portrait" />
+
+        <!-- Item 点击 -->
+        <activity
+            android:name=".click.RcvClickActivity"
+            android:label="Item 点击"
+            android:screenOrientation="portrait" />
+
+        <!-- 分组 -->
+        <activity
+            android:name=".group.GroupActivity"
+            android:label="分组"
+            android:screenOrientation="portrait" />
+
+        <!-- 顶部悬浮 -->
+        <activity
+            android:name=".sticky.StickyActivity"
+            android:label="顶部悬浮"
+            android:screenOrientation="portrait" />
+
+        <!-- Item 拖动 -->
+        <activity
+            android:name=".drag.DragActivity"
+            android:label="Item 拖动"
+            android:screenOrientation="portrait" />
+
+        <!-- 滑动删除 -->
+        <activity
+            android:name=".swipe.SwipeActivity"
+            android:label="滑动删除"
+            android:screenOrientation="portrait" />
+
+        <!-- 下拉刷新 -->
+        <activity
+            android:name=".refresh.RefreshActivity"
+            android:label="下拉刷新"
+            android:screenOrientation="portrait" />
+
+        <!-- 上拉加载 -->
+        <activity
+            android:name=".load.LoadActivity"
+            android:label="上拉加载"
+            android:screenOrientation="portrait" />
+
+        <!-- 双向滑动 -->
+        <activity
+            android:name=".slide.SlideActivity"
+            android:label="双向滑动"
+            android:screenOrientation="portrait" />
+
+        <!-- RecyclerView item 居中对齐 -->
+        <activity
+            android:name=".snaphelper.SnapHelperActivity"
+            android:label="RecyclerView item 居中对齐"
+            android:screenOrientation="portrait" />
+
+        <!-- 展开和收缩 -->
+        <activity
+            android:name=".expandcollapse.ExpandCollapseActivity"
+            android:label="展开和收缩"
+            android:screenOrientation="portrait" />
+
+        <!-- 瀑布流 -->
+        <activity
+            android:name=".waterfall.WaterfallActivity"
+            android:label="瀑布流"
+            android:screenOrientation="portrait" />
+
+        <!-- 时间轴 -->
+        <activity
+            android:name=".timeline.TimelineActivity"
+            android:label="时间轴"
+            android:screenOrientation="portrait" />
+
+        <!-- 为 RecyclerView 添加 Footer -->
+        <activity
+            android:name=".footer.FooterActivity"
+            android:label="为 RecyclerView 添加 Footer"
+            android:screenOrientation="portrait" />
+
+        <!-- 为 RecyclerView 添加 Header -->
+        <activity
+            android:name=".header.HeaderActivity"
+            android:label="为 RecyclerView 添加 Header"
+            android:screenOrientation="portrait" />
+
+        <!-- 左右联动 -->
+        <activity
+            android:name=".link.LinkActivity"
+            android:label="左右联动"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
